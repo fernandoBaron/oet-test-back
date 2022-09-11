@@ -17,6 +17,7 @@ export class CriptoHelper {
     }
 
     decode (plainSecretWord: string, encodeSecretWord: any) {
+        console.log(plainSecretWord, encodeSecretWord);
         return new Promise( (resolve, reject) => {
             bcrypt.compare(plainSecretWord, encodeSecretWord,  (err, result) => {
                 if (err) {
