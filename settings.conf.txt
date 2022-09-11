@@ -1,0 +1,8 @@
+{
+    "username":"",
+    "password":"",
+    "database":"",
+    "email_user":"",
+    "email_password":"",
+    "email_host":"",
+}
