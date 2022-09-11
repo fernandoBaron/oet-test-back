@@ -5,3 +5,4 @@ uploads/profile/*.*
 !uploads/profile/.gitkeep
 uploads/documents/*.*
 !uploads/documents/.gitkeep
+settings.conf

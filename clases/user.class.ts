@@ -8,7 +8,6 @@ import User from "../models/user.model";
 import { GeneralExceptionNotFoundException } from '../exceptions/general-exception-not-found.exception';
 import { UnexpectedErrorException } from '../exceptions/unexpected-error.exception';
 import { UploadedFile } from "express-fileupload";
-import { ImageNotFoundException } from "../exceptions/image-not-found.exception";
 import { EmailNotSendException } from '../exceptions/email-not-send.exception';
 import { Mailer } from "../server/mailer";
 
