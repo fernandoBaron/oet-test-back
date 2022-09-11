@@ -5,7 +5,7 @@ import User from "../models/user.model";
 
 export function tokenVerify (req: Request, res: Response, next: any) {
     const token: string = <string>req.headers.token;
-    jwt.verify(token, TOKEN_SEED, async (err, decoded: any) => {
+    jwt.verify(token, TOKEN_SEED, async (err: any, decoded: any) => {
         if(err) {
             res.status(401)
                 .json({
