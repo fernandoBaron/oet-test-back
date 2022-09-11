@@ -24,9 +24,9 @@ export default class Server {
             key: new Buffer(''),
             cert: new Buffer(''),
         };
-        try {
-            options.key = fs.readFileSync("/etc/letsencrypt/archive/servidor/privkey1.pem");
-            options.cert = fs.readFileSync("/etc/letsencrypt/archive/servidor/fullchain1.pem");
+        try {        
+            options.key = fs.readFileSync("/etc/letsencrypt/archive/www.qbit.ryd.com.co-0001/privkey9.pem");
+            options.cert = fs.readFileSync("/etc/letsencrypt/archive/www.qbit.ryd.com.co-0001/fullchain9.pem");
         } catch (e) {
 
         }
